@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT License"
+
+[[mods]]
+modId="gsmod"
+version="${file.jarVersion}"
+displayName="GS Mod"
+logoFile="gsmod.png"
+credits="Thanks to all the readers of GeekStand!"
+authors="Astler"
+description='''
+A mod that is the basis for a tutorial on modding.
+
+The best mod in the world, because its own!
+'''
+
+[[dependencies.gsmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[37,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.gsmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
