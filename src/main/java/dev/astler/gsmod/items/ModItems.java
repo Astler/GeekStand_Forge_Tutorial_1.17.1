@@ -20,7 +20,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> CAN = ITEMS.register("can", () -> new Item(new Item.Properties().tab(ModCreativeTabs.GS_MOD_TAB)));
     public static final RegistryObject<Item> CANDY = ITEMS.register("candy", () -> new Item(new Item.Properties().tab(ModCreativeTabs.GS_MOD_TAB).food(ModFood.CANDY)));
-    public static final RegistryObject<Item> CAN_WITH_FOOD = ITEMS.register("can_with_food", () -> new CanFoodItem(new Item.Properties().tab(ModCreativeTabs.GS_MOD_TAB).food(ModFood.CAN_WITH_FOOD)));
+    public static final RegistryObject<Item> CAN_WITH_FOOD = ITEMS.register("can_with_food", () -> new CanFoodItem(new Item.Properties().tab(ModCreativeTabs.GS_MOD_TAB).food(ModFood.CAN_WITH_FOOD).stacksTo(1)));
 
     public static final RegistryObject<Item> FORTIFIED_STONE_AXE = ITEMS.register("fortified_stone_axe", () -> new AxeItem(ModTiers.FORTIFIED_STONE, 6.0F, -3.1F, new Item.Properties().tab(ModCreativeTabs.GS_MOD_TAB)));
     public static final RegistryObject<Item> FORTIFIED_STONE_SHOVEL = ITEMS.register("fortified_stone_shovel", () -> new ShovelItem(ModTiers.FORTIFIED_STONE, 1.5F, -3.0F, new Item.Properties().tab(ModCreativeTabs.GS_MOD_TAB)));
